@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#chat-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.sender {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.text {
+    word-wrap: break-word;
+}
+
+#input-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e0bbff; /* 파스텔보라 */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+    background-color: #b087c9; /* 진한 파스텔보라 */
+}
