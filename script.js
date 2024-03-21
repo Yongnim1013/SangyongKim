@@ -18,7 +18,7 @@ switch (option) {
             textDiv.textContent = "술은 잘 마시지도 아주 못마시지도 않는 정도인 것 같고, 담배는 펴본적도 없어 종교도 없어 나의 신은 김나미 뿐이야 아? 그럼 종교가 있는건가?";
             break;
         case 3:
-            textDiv.textContent = "MBTI로 표현을 하자면 나는 ISFJ야";
+            textDiv.textContent = "MBTI로 표현을 하자면 나는 ISFJ야 아무튼 나는 나미바보야";
             break;
         default:
             textDiv.textContent = "김나미 사랑해♥";
